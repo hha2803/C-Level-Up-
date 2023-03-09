@@ -30,19 +30,13 @@ void Input(int day, int month, int year){
     printf("Tuoi cua ban la:%d", year_new - year);
 }
 
-// void Output(int year){
-//     int year_new = 2023;
-//     printf("Tuoi cua ban la: %d\n", year_new - year);
-// }
 
 int main(int argc, char const *argv[])
 {
     
     int day, month, year; 
-    // int year_new = 2023;
+
     Input(day,month,year);
-    // Output(year);
-    // printf("Tuoi cua ban la:%d\n", year_new - year);
-    
+   
     return 0;
 }
